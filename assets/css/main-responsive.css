@@ -16,7 +16,7 @@ p {
     color: #0B1354;
     height: auto;
     width: 100%;
-    background: url(images/header-bg.jpg) right no-repeat;
+    background: url(../images/header-bg.jpg) right no-repeat;
 }
 
 /* Horizonal navigation bar */
