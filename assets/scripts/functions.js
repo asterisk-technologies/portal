@@ -28,9 +28,10 @@ window.onload = function () {
       mybutton.style.display = "none";
     }
   }
-  document.getElementById("cookieNotice").style.display = "block";
-};
-
+  if (document.getElementById("cookieNotice")){
+    document.getElementById("cookieNotice").style.display = "block";
+  }
+}
 
 // Set cookie consent
 function acceptCookieConsent() {
